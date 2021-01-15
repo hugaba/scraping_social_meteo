@@ -45,4 +45,4 @@ Analyse des fichiers csv et data-visualisation sur jupyter
 programme d'analyse de twitter avec scrolling par Selenium
 * Utilisable sur de petits comptes car le scrolling prend énormément de temps sur des comptes twitter avec beaucoup de tweets
 * Fonctionnel mais quelques lignes à modifier dans le fichier principal pour lire la date (date au format dd/mm/yyyy vs yyyy-mm-dd à l'issue de twitter2.py)
-  ** commenter les lignes 40 et 41 du programme weather.py
+ * commenter les lignes 40 et 41 du programme weather.py
