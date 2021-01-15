@@ -29,6 +29,7 @@ Le programme est réalisé à l'aide de l'API twint
 Une fois les scraping effectués sur au moins un des sites, le programme weather.py peut être lancé.
 
 ## weather.py
+Necessite l'installation de chrome et de chromedriver
 Pour récupérer de nouvelles dates:
 * modifier 'reddid_AustinFC.csv' dans la ligne "reddit = pd.read_csv("reddit_AustinFC.csv")" pour charger le csv réalisé avec reddit.py
 * modifier 'twitter_AustinFC.csv dans la ligne "twitter = pd.read_csv("twitter_AustinFC.csv")" pour charger le csv réalisé avec twitter2.py
