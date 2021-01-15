@@ -9,6 +9,7 @@ Le repository contien 7 fichiers:
 * twitter_AustinFC.csv
 * weather_AustinFC.csv
 * scraping.ipynb
+* twitter.py
 
 Les fichiers python reddit.py et twitter2.csv peuvent être lancés séparément en premier lieu.
 Ils permettent de générer les fichiers csv reddit et twitter (noms d'enregistrement à changer si scraping sur une nouvelle source)
@@ -39,3 +40,9 @@ Fichiers csv tests récupérés à l'aide des programmes
 
 ## scraping.ipynb
 Analyse des fichiers csv et data-visualisation sur jupyter
+
+## twitter.py
+programme d'analyse de twitter avec scrolling par Selenium
+Utilisable sur de petits comptes car le scrolling prend énormément de temps sur des comptes twitter avec beaucoup de tweets
+Fonctionnel mais quelques lignes à modifier dans le fichier principal pour lire la date (date au format dd/mm/yyyy vs yyyy-mm-dd à l'issue de twitter2.py)
+* commenter les lignes 40 et 41 du programme weather.py
